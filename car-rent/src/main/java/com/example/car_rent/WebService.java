@@ -11,7 +11,7 @@ public class WebService {
     }
 
     @GetMapping("/car")
-    public Car getCar(){
-        return new Car("Porsche", 2000);
+    public Car getCar() {
+        return new Car("Mazda Miata", 69);
     }
 }
